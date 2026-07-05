@@ -1393,3 +1393,48 @@ footer{
 }
 
 }
+
+.mobile-salam{
+    display:none;
+}
+
+@media (max-width:768px){
+
+.desktop-salam{
+    display:none;
+}
+
+.mobile-salam{
+    display:block;
+}
+}
+
+.closing-salam{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:58px;
+
+    font-weight:700;
+
+    color:#2f3b52;
+
+    line-height:1.3;
+
+    margin-top:40px;
+
+}
+
+@media (max-width:768px){
+
+.closing-salam{
+
+    font-size:32px;
+
+    line-height:1.5;
+
+    margin-top:30px;
+
+}
+
+}
